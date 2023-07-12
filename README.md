@@ -4,9 +4,9 @@ A custom HTML element built to be a reimagining of html and css that just works 
 
 ## Installation
 
-- 1. Run `npm install b-x` in your project directory.
-- 2. In main add `import "b-x";` to the top of your file.
-- 3. If you are using typescript declare a global component
+1. Run `npm install b-x` in your project directory.
+2. In main add `import "b-x";` to the top of your file.
+3. If you are using typescript declare a global component
   - Vue:
     ```ts
     declare global {
