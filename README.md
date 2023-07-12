@@ -7,7 +7,7 @@ A custom HTML element built to be a reimagining of html and css that just works 
 1. Run `npm install b-x` in your project directory.
 2. In main add `import "b-x";` to the top of your file.
 3. If you are using typescript declare a global component
-  - Vue:
+  1. Vue:
     ```ts
     declare global {
       namespace preact.createElement.JSX {
@@ -20,7 +20,7 @@ A custom HTML element built to be a reimagining of html and css that just works 
       }
     }
     ```
-  - Preact:
+  2. Preact:
     ```ts
     declare module "vue" {
       export interface GlobalComponents {
